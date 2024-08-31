@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM sans', sans-serif;
+    font-weight: 400;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    padding-top: 2%;
+    
+}
+
+.container{
+    width: 85%;
+    height: 90vh;
+    margin: auto;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.items{
+    padding-top: 30px;
+}
+
+.pic{
+    grid-row-start: 1;
+    grid-row-end: 5;
+    background-color: deeppink;
+}
+
+
+.indoor-s{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: deeppink;
+}
+
+.programs{
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-color: deeppink;
+}
+
+.welcome{
+    grid-row-start: 1;
+    grid-row-end: 5;
+    grid-column: 3/5;
+    background-color: white;
+}
+
+.pic{
+    background-image: url("https://i.pinimg.com/564x/0b/d2/96/0bd2960e82151ca91d8bb918b6767985.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 8px solid deeppink;
+}
+
+
+.indoor-s{
+    color: white;
+}
+
+.contenti{
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.indoor-s > .contenti > h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.indoor-s > .contenti > ul{
+    margin-left: 20px;
+}
+.indoor-s > .contenti > ul > li{
+    margin-top: 10px;
+
+}
+
+
+.programs{
+    color: white;
+}
+
+.contentp{
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.programs > .contentp > h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -15px;
+    margin-bottom: 20px;
+}
+
+.programs > .contentp > ul{
+    margin-left: 20px;
+}
+.programs > .contentp > ul > li{
+    margin-top: 10px;
+
+}
+
+.contentw{    
+    width: 80%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+    margin-top: -30px;
+}
+
+
+.welcome> .contentw > h1{
+    color: deeppink;
+    font-size: 25px;
+}
+
+.welcome > .contentw > .header-continues{
+    margin-top: 8px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.welcome > .contentw > #welcome-p{
+    margin-top: 30px;
+    line-height: 1.5;
+    font-size: 17px;
+}
+
+
+.welcome > .contentw > button{
+    width: fit-content;
+    background-color: deeppink;
+    border: none;
+    color: white;
+    font-weight: 700;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 30px;
+    
+}
